@@ -27,8 +27,10 @@
     animation-name: guilty;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
+    animation-delay: 2s;
     width: 200px;
     z-index: 1;
+    margin-left: 300px;
 }
 
 @keyframes guilty {
@@ -49,7 +51,6 @@
     }
 
     100% {
-        margin-left: 300px;
         width: 0%;
     }
 }
@@ -60,13 +61,15 @@
     justify-content: center;
     background-image: url(multimedia/cabina.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 50px;
     font-family: halo;
+
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
@@ -76,15 +79,19 @@ h1 {
 p {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 140px;
+    width: 240px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
     color: white;
+    padding: 50px;
 }
 
 #mensajeDos {
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
 }
 
 

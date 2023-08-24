@@ -85,6 +85,7 @@ p {
     0 0 1em blue,
     0 0 0.2em blue;
     color: white;
+    padding: 20px;
 }
 
 #mensajeDos {

@@ -67,7 +67,7 @@
     margin-bottom: 15px;
 }
 
-h1 {
+#mensajeDos h1 {
     font-size: 50px;
     font-family: halo;
     text-shadow: 1px 1px 2px black,
@@ -80,6 +80,7 @@ h1 {
 #mensajeDos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: black;
     width: 100%;
@@ -88,7 +89,6 @@ h1 {
 #mensajeDos p {
     font-size: 15px;
     font-family: 'Bruno Ace', cursive;
-    width: 400px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;

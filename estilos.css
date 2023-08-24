@@ -63,13 +63,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 h1 {
     font-size: 50px;
     font-family: halo;
-
+    margin-left: 20px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
@@ -77,20 +77,20 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 240px;
+    width: 200px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
     color: white;
-    padding: 50px;
+    margin-left: 40px;
 }
 
 #mensajeDos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     background-color: black;
     width: 100%;
 }

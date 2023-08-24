@@ -77,7 +77,15 @@ h1 {
     justify-self: center;
 }
 
-p {
+#mensajeDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+#mensajeDos p {
     font-size: 15px;
     font-family: 'Bruno Ace', cursive;
     width: 400px;
@@ -86,14 +94,6 @@ p {
     0 0 0.2em blue;
     color: white;
     padding: 20px;
-}
-
-#mensajeDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    width: 100%;
 }
 
 

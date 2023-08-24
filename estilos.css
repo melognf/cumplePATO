@@ -1,0 +1,90 @@
+@font-face {
+    font-family: halo;
+    src: url(Halo.ttf);
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    background-image: url(multimedia/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.encabezado span {
+    color: rgb(250, 242, 242);
+    font-family: halo;
+    font-size: 150px;
+    text-shadow: 10px 5px 5px rgb(77, 74, 216);
+    padding: 75px;
+    margin-left: 10px;
+}
+
+.mensaje {
+    width: 40%;
+    height: 250px;
+}
+
+.mensaje img {
+    animation-name: guilty;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    width: 200px;
+}
+
+@keyframes guilty {
+
+    0% {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      50% {
+        margin-left: 0%;
+        width: 50%;
+    }
+
+    75% {
+        margin-left: 350px;
+        width: 50%;
+    }
+
+    100% {
+        margin-left: 300px;
+        width: 0%;
+    }
+}
+
+#guilty {
+    display: flex;
+    flex-direction: row;
+    background-image: url(multimedia/cabina.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: halo;
+    margin-left: 110px;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+}
+
+
+    

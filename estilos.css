@@ -28,6 +28,7 @@
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     width: 200px;
+    z-index: 1;
 }
 
 @keyframes guilty {
@@ -66,7 +67,6 @@
 h1 {
     font-size: 50px;
     font-family: halo;
-    margin-left: 110px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
@@ -76,12 +76,15 @@ h1 {
 p {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
-    margin-bottom: 20px;
+    width: 140px;
     text-shadow: 1px 1px 2px black,
     0 0 1em blue,
     0 0 0.2em blue;
     color: white;
+}
+
+#mensajeDos {
+    width: 50%;
 }
 
 

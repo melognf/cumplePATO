@@ -15,7 +15,8 @@
 }
 
 .encabezado img {
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
 
 .mensaje {
@@ -163,7 +164,6 @@
 footer {
     color: white;
     background-color: #1f1e1e;
-
     font-family: 'Lilita One', cursive;
     padding: 5px;
     font-weight: 200;

@@ -4,7 +4,7 @@
         year: 2023, // required
         month: 9, // required
         day: 11, // required
-        hours: 0, // Default is 0 [0-23] integer
+        hours: 16, // Default is 0 [0-23] integer
         minutes: 0, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer
         words: { //words displayed into the countdown
